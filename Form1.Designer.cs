@@ -28,13 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.imgTemperature = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.btnTemperature = new System.Windows.Forms.Button();
+            this.lblInstruction = new System.Windows.Forms.Label();
+            this.txtTemperature = new System.Windows.Forms.TextBox();
+            this.lblTemperature = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTemperature)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // imgTemperature
+            // 
+            this.imgTemperature.Location = new System.Drawing.Point(222, 39);
+            this.imgTemperature.Name = "imgTemperature";
+            this.imgTemperature.Size = new System.Drawing.Size(217, 217);
+            this.imgTemperature.TabIndex = 0;
+            this.imgTemperature.TabStop = false;
+            // 
+            // btnTemperature
+            // 
+            this.btnTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTemperature.Location = new System.Drawing.Point(462, 201);
+            this.btnTemperature.Name = "btnTemperature";
+            this.btnTemperature.Size = new System.Drawing.Size(150, 55);
+            this.btnTemperature.TabIndex = 1;
+            this.btnTemperature.Text = "Change Temperature!";
+            this.btnTemperature.UseVisualStyleBackColor = true;
+            this.btnTemperature.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblInstruction
+            // 
+            this.lblInstruction.AutoSize = true;
+            this.lblInstruction.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstruction.Location = new System.Drawing.Point(461, 141);
+            this.lblInstruction.Name = "lblInstruction";
+            this.lblInstruction.Size = new System.Drawing.Size(130, 21);
+            this.lblInstruction.TabIndex = 2;
+            this.lblInstruction.Text = "Enter Temperature:";
+            // 
+            // txtTemperature
+            // 
+            this.txtTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTemperature.Location = new System.Drawing.Point(465, 165);
+            this.txtTemperature.Name = "txtTemperature";
+            this.txtTemperature.Size = new System.Drawing.Size(147, 28);
+            this.txtTemperature.TabIndex = 3;
+            // 
+            // lblTemperature
+            // 
+            this.lblTemperature.AutoSize = true;
+            this.lblTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemperature.Location = new System.Drawing.Point(218, 15);
+            this.lblTemperature.Name = "lblTemperature";
+            this.lblTemperature.Size = new System.Drawing.Size(142, 21);
+            this.lblTemperature.TabIndex = 4;
+            this.lblTemperature.Text = "Current Temperature:";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.lblTemperature);
+            this.Controls.Add(this.txtTemperature);
+            this.Controls.Add(this.lblInstruction);
+            this.Controls.Add(this.btnTemperature);
+            this.Controls.Add(this.imgTemperature);
+            this.Name = "Form1";
+            this.Text = "Temperature";
+            ((System.ComponentModel.ISupportInitialize)(this.imgTemperature)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.PictureBox imgTemperature;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Button btnTemperature;
+        private System.Windows.Forms.Label lblInstruction;
+        private System.Windows.Forms.TextBox txtTemperature;
+        private System.Windows.Forms.Label lblTemperature;
     }
 }
 

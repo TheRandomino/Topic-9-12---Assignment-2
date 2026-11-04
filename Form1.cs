@@ -16,5 +16,10 @@ namespace Topic_9_12___Assignment_2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
