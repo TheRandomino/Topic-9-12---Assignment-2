@@ -81,7 +81,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\doyouwannabuildasnowman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misinformation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shifting sand land.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\hell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WROOONG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,28 +39,29 @@
             // 
             // imgTemperature
             // 
-            this.imgTemperature.Location = new System.Drawing.Point(222, 39);
+            this.imgTemperature.Location = new System.Drawing.Point(12, 36);
             this.imgTemperature.Name = "imgTemperature";
-            this.imgTemperature.Size = new System.Drawing.Size(217, 217);
+            this.imgTemperature.Size = new System.Drawing.Size(380, 217);
+            this.imgTemperature.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgTemperature.TabIndex = 0;
             this.imgTemperature.TabStop = false;
             // 
             // btnTemperature
             // 
             this.btnTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTemperature.Location = new System.Drawing.Point(462, 201);
+            this.btnTemperature.Location = new System.Drawing.Point(415, 198);
             this.btnTemperature.Name = "btnTemperature";
             this.btnTemperature.Size = new System.Drawing.Size(150, 55);
             this.btnTemperature.TabIndex = 1;
             this.btnTemperature.Text = "Change Temperature!";
             this.btnTemperature.UseVisualStyleBackColor = true;
-            this.btnTemperature.Click += new System.EventHandler(this.button1_Click);
+            this.btnTemperature.Click += new System.EventHandler(this.btnTemperature_Click);
             // 
             // lblInstruction
             // 
             this.lblInstruction.AutoSize = true;
             this.lblInstruction.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInstruction.Location = new System.Drawing.Point(461, 141);
+            this.lblInstruction.Location = new System.Drawing.Point(414, 138);
             this.lblInstruction.Name = "lblInstruction";
             this.lblInstruction.Size = new System.Drawing.Size(130, 21);
             this.lblInstruction.TabIndex = 2;
@@ -69,7 +70,7 @@
             // txtTemperature
             // 
             this.txtTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTemperature.Location = new System.Drawing.Point(465, 165);
+            this.txtTemperature.Location = new System.Drawing.Point(418, 162);
             this.txtTemperature.Name = "txtTemperature";
             this.txtTemperature.Size = new System.Drawing.Size(147, 28);
             this.txtTemperature.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             this.lblTemperature.AutoSize = true;
             this.lblTemperature.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperature.Location = new System.Drawing.Point(218, 15);
+            this.lblTemperature.Location = new System.Drawing.Point(8, 12);
             this.lblTemperature.Name = "lblTemperature";
             this.lblTemperature.Size = new System.Drawing.Size(142, 21);
             this.lblTemperature.TabIndex = 4;
@@ -88,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(575, 265);
             this.Controls.Add(this.lblTemperature);
             this.Controls.Add(this.txtTemperature);
             this.Controls.Add(this.lblInstruction);
